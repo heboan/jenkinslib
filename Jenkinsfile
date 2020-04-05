@@ -46,7 +46,7 @@ pipeline{
                 timeout(time:20, unit:"MINUTES"){
                     script{
                         println('代码扫描')
-						tools.Println("this is my lib")
+			tools.PrintMsg("this is my lib", "green")
                     }
                 }
             }
